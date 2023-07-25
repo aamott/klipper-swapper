@@ -8,7 +8,7 @@ Toolchanger macros for Klipper. Specifically for the kind of toolchanger that us
 
 # TODO
 - [ ] Explore how to add pickup position and offsets to each extruder under the `[extruder]` section.
-- [ ] Fix z offet
+- [x] Fix z offet
 - [ ] Simplify setting z offset
 - [ ] Automatic x/y/z offset calibration (with a load cell?)
 - [x] First successful print using tool 2
