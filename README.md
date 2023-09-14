@@ -11,6 +11,7 @@ Toolchanger macros for Klipper. Specifically for the kind of toolchanger that us
 - [x] Fix z offet
 - [ ] Simplify setting z offset
     - [ ] Change and save x/y/z offsets live, without changing the config file.
+- [ ] Load offsets on startup
 - [ ] Automatic x/y/z offset calibration (with a load cell?)
 - [x] First successful print using tool 2
 - [x] First successful print using 2 tools
