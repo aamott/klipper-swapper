@@ -6,6 +6,10 @@ Toolchanger macros for Klipper. Specifically for the kind of toolchanger that us
 2. Include `toolchange.cfg` by adding `[include klipper-swapper/toolchange.cfg]` in your config file.
 3. Edit `toolchange.cfg` to fit your printer's configuration.
 
+
+# Limitations
+- Tools must be created in order, from 0. Numbers cannot be skipped. (i.e. "0, 1, 2...", not "0, 2, 4...")
+
 # TODO
 - [ ] Explore how to add pickup position and offsets to each extruder under the `[extruder]` section.
 - [x] Fix z offet
